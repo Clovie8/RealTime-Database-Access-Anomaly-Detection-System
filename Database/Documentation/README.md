@@ -6,7 +6,7 @@ This repository contains the necessary SQL scripts to create and configure the O
 
 ## 1. Naming Convention
 The database is configured under the following structure:
-* **PDB Name:** `[GRP_NAME]_[STUDENT_ID]_[FIRST_NAME]_DBAccessAD_DB` (Example: `Thu_12121_clovisDBAccessAD_db`)
+* **PDB Name:** `THU_27122_CLOVIS_DBACCESSAD_DB`
 * **Application Schema/User:** `SEC_ADMIN`
 
 ---
