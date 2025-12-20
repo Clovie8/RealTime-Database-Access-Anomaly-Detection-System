@@ -51,7 +51,7 @@ Follow these steps to deploy the system in order.
 
 ---
 
-## 📚 Documentation
+##  Documentation
 Detailed technical documentation is available in the `documentation/` folder:
 * **Data Dictionary:** Detailed breakdown of schemas (`APP_USERS`, `SECURITY_ALERTS`, etc.) and constraints.
 * **System Architecture:** High-level overview of the Trigger-Logic-Data layers.
@@ -59,7 +59,7 @@ Detailed technical documentation is available in the `documentation/` folder:
 
 ---
 
-## 📊 Testing & Validation
+##  Testing & Validation
 Testing scripts are provided in each phase. To verify the system status, run:
 * `Queries/Analytics_queries For (Database Interaction & Transactions).sql`
 * `Queries/Audit_queries For (Advanced Programming & Auditing).sql`
