@@ -165,3 +165,7 @@ DIVIDE(TotalBlocks, (TotalAccess + TotalBlocks), 0)
 
 1. Go to the **View** tab.
 2. Select the **"Innovate"** or **"Storm"** theme to apply a professional Theme Mode look suitable for a Security Operations Center (SOC) display.
+
+
+
+!image["https://github.com/Clovie8/RealTime-Database-Access-Anomaly-Detection-System/blob/master/Business_intellgence/BI%20DashBoard.png"]
