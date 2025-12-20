@@ -16,7 +16,7 @@ The database is configured under the following structure:
 | File | Purpose | Execution User |
 | :--- | :--- | :--- |
 | **oracle_setup.sql** | Creates tablespaces, temp tablespace, security profile, and the SEC_ADMIN user. | PDB Admin (or SYS) |
-| **create_tables.sql** | Executes Data Definition Language (DDL) to create all 5 application tables and sequences. | SEC_ADMIN |
+| **Table creation script.sql** | Executes Data Definition Language (DDL) to create all 5 application tables and sequences. | SEC_ADMIN |
 
 ---
 
