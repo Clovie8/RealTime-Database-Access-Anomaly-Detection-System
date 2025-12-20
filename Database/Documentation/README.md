@@ -32,7 +32,7 @@ The following configurations were implemented in `oracle_setup.sql`:
 
 ### Admin User Setup
 * **Username:** `SEC_ADMIN`
-* **Password:** `MySecretP@ssw0rd` (Note: Replace with your first name format)
+* **Password:** `clovis`
 * **Default Tablespace:** `SEC_DATA`
 * **Temporary Tablespace:** `SEC_TEMP`
 * **Profile:** `SEC_ADMIN_PROFILE` (Limits CPU/call and idle time to prevent runaway queries)
@@ -46,7 +46,7 @@ The following configurations were implemented in `oracle_setup.sql`:
 
 ## 4. Project Structure Overview
 ```text
-/Phase4_DB_Creation
-├── README.md                 <-- This document
-├── oracle_setup.sql          <-- Tablespace, User, Profile setup
-└── create_tables.sql         <-- DDL for APP_USERS, SECURITY_ALERTS, etc.
+/Database
+├── / Documentation
+|   ├── README.md   <-- This document
+└──/Scripts        <-- Contain All script used 
