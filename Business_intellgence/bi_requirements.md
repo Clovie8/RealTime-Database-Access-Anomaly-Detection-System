@@ -1,7 +1,6 @@
 # Business Intelligence Requirements
 
-**Project:** Real-time Database Access Anomaly Detection  
-**Phase:** Part B (BI & Analytics)
+**Project:** Real-time Database Access Anomaly Detection 
 
 ---
 
