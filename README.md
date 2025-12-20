@@ -45,9 +45,9 @@ Follow these steps to deploy the system in order.
 
 ### Step 4: Activate Security Triggers (Phase VII)
 *Run as SEC_ADMIN*
-1. Execute `Phase7_Auditing/1_setup_tables.sql` (Holiday & Audit tables).
-2. Execute `Phase7_Auditing/2_business_logic.sql` (Restriction Logic).
-3. Execute `Phase7_Auditing/3_triggers.sql` (Simple & Compound Triggers).
+1. Execute `Database/script/Setup Tables.sql` (Holiday & Audit tables).
+2. Execute `Database/script/Business Logic.sql` (Restriction Logic).
+3. Execute `Database/script/Triggers.sql` (Simple & Compound Triggers).
 
 ---
 
@@ -60,6 +60,7 @@ Detailed technical documentation is available in the `documentation/` folder:
 ---
 
 ## 📊 Testing & Validation
-Testing scripts are provided in each phase folder. To verify the system status, run:
-* `Phase6_Logic/5_testing_script.sql`
-* `Phase7_Auditing/4_testing_phase_vii.sql`
+Testing scripts are provided in each phase. To verify the system status, run:
+* `Queries/Analytics_queries For (Database Interaction & Transactions).sql`
+* `Queries/Audit_queries For (Advanced Programming & Auditing).sql`
+* `Queries/Data_retrieval For (Table Implementation & Data Insertion).sql`
