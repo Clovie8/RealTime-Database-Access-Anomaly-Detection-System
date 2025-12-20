@@ -29,19 +29,19 @@ Follow these steps to deploy the system in order.
 
 ### Step 1: Database & User Setup (Phase IV)
 *Run as PDB Administrator (SYS/SYSTEM)*
-1. Execute `Phase4_DB_Creation/oracle_setup.sql` to create the `SEC_DATA` tablespace and the `SEC_ADMIN` user.
+1. Execute `Database/script/oracle_setup.sql` to create the `SEC_DATA` tablespace and the `SEC_ADMIN` user.
 
 ### Step 2: Schema Build & Data Load (Phase V)
 *Run as SEC_ADMIN*
-1. Execute `Phase5_Tables/1_ddl_schema.sql` to build the 5 core tables.
-2. Execute `Phase5_Tables/2_dml_data_insertion.sql` to generate 600+ realistic test logs.
+1. Execute `Database/script/Table Creation Script.sql` to build the 5 core tables.
+2. Execute `Database/script/insert script.sql` to generate 600+ realistic test logs.
 
 ### Step 3: Deploy PL/SQL Logic (Phase VI)
 *Run as SEC_ADMIN*
-1. Execute `Phase6_Logic/1_functions.sql` (Standalone Functions).
-2. Execute `Phase6_Logic/2_procedures.sql` (Standalone Procedures).
-3. Execute `Phase6_Logic/3_package_maintenance.sql` (Maintenance Package).
-4. Execute `Phase6_Logic/4_window_functions.sql` (Analytics View).
+1. Execute `Database/script/Functions.sql` (Standalone Functions).
+2. Execute `Database/script/Procedures.sql` (Standalone Procedures).
+3. Execute `Database/script/Package Maintenance.sql` (Maintenance Package).
+4. Execute `Database/script/Window Functions.sql` (Analytics View).
 
 ### Step 4: Activate Security Triggers (Phase VII)
 *Run as SEC_ADMIN*
