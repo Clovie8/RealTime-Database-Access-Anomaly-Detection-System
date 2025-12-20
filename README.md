@@ -6,17 +6,17 @@
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 This project implements a **"Zero Trust"** security layer directly within the Oracle Database using advanced PL/SQL. It moves beyond standard password authentication to enforce context-aware security policies, restricting access based on **Time of Day**, **IP Address**, and **Calendar Events** (Weekends/Holidays).
 
 ---
 
-## 🚩 Problem Statement
+##  Problem Statement
 Traditional database security relies heavily on static passwords, leaving systems vulnerable to credential theft and insider threats. Once a user logs in, they often have unchecked access to sensitive data regardless of when or where they are connecting from, making it difficult to detect anomalies until a breach has already occurred.
 
 ---
 
-## 🎯 Key Objectives
+##  Key Objectives
 * **Context-Aware Authorization:** Implement functions to validate logins against strict "Business Hour" and "IP Whitelist" rules.
 * **Automated Anomaly Detection:** Use triggers and autonomous transactions to instantly log suspicious behavior without disrupting the main transaction.
 * **Strict DML Governance:** Enforce a "No Change" policy on Weekdays and Public Holidays using Simple Triggers.
@@ -24,7 +24,7 @@ Traditional database security relies heavily on static passwords, leaving system
 
 ---
 
-## 🚀 Quick Start Instructions
+##  Quick Start Instructions
 Follow these steps to deploy the system in order.
 
 ### Step 1: Database & User Setup (Phase IV)
