@@ -1,12 +1,4 @@
 -- This script should be run after logging into the target Pluggable Database (PDB)
--- The PDB name should follow the specified convention: 
--- GrpName_StudentId_FirstName_DBAccessAD_DB
-
--- Placeholder Credentials:
--- Replace 'MySecretP@ssw0rd' with your actual first name as required.
--- User: SEC_ADMIN
--- Password: [Your first name]
-
 
 CREATE PLUGGABLE DATABASE Thu_27122_clovis_DBAccessAD_db
 ADMIN USER Clovis_admin IDENTIFIED BY clovis
@@ -82,7 +74,3 @@ ALTER USER SEC_ADMIN QUOTA UNLIMITED ON SEC_IDX;
 
 -- Commit changes
 COMMIT;
-
--- Test Connection (Optional, run separately)
--- CONNECT SEC_ADMIN/MySecretP@ssw0rd@pdb_name;
--- SELECT * FROM user_tablespaces;
