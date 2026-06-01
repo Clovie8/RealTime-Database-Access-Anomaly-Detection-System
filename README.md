@@ -1,8 +1,4 @@
 # Real-time Database Access Anomaly Detection System
-**Final Practicum Project – PL/SQL**
-
-**Student Name:** DUKUNDIMANA Clovis  
-**Student ID:** 27122
 
 ---
 
